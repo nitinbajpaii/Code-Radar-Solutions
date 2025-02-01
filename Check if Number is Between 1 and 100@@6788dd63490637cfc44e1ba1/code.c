@@ -2,13 +2,11 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if a==0{
-        printf("Out of Range");
+    if (a>=1 && a<=100){
+        printf("In Range");
     }
     else{
-        for(int i=1;i<=100;i++){
-            printf("In Range");
-        }
+        printf("Out of Range");
     }
     return 0;
 }
