@@ -5,19 +5,19 @@ int main() {
     char c;
     scanf("%d %d %c",&a,&b,&c);
     if (c=='+'){
-        result==a+b;
+        result=a+b;
         printf("%f",result);  
     }
     else if (c=='-'){
-        result == a-b;
+        result = a-b;
         printf("%f",result);
     }
     else if (c=='*'){
-        result==a*b;
+        result=a*b;
         printf("%f",result);
     }
     else if (c=='/'){
-        result == a/b;
+        result = (float)a/b;
         printf("%f",result);
     }
     else{
