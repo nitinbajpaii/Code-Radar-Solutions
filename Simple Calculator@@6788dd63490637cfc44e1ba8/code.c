@@ -13,7 +13,7 @@ int main() {
         printf("%f",a*b);
     }
     else if (c=='/'){
-        printf("%d",(float)a/b);
+        printf("%f",(float)a/b);
     }
     else{
         printf("Error");
