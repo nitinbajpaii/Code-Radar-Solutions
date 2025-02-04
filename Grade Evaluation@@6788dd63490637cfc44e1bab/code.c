@@ -1,21 +1,21 @@
 #include <stdio.h>
 int main() {
-    char grade;
-    scanf("%c",&grade);
-    switch (grade){
-        case A:
+    char x;
+    scanf("%c",&x);
+    switch (x){
+        case "A":
         printf("Excellent");
         break;
-        case B:
+        case "B":
         printf("Good");
         break;
-        case C:
+        case "C":
         printf("Average");
         break;
-        case D:
+        case "D":
         printf("Below Average");
         break;
-        case F:
+        case "F":
         printf("Fail");
         break;
         default:
