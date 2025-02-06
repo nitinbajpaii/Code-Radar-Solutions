@@ -4,19 +4,24 @@ int main() {
     char c;
     scanf("%d %d %c",&a,&b,&c);
     if (c=='+'){
-        printf("%d",a+b);  
+        printf("%d\n",a+b);  
     }
     else if (c=='-'){
-        printf("%d",a-b);
+        printf("%d\n",a-b);
     }
     else if (c=='*'){
-        printf("%d",a*b);
+        printf("%d\n",a*b);
     }
     else if (c=='/'){
-        printf("%d",a/b);
+        if (b==0){
+            printf("Error: Division by zero\n");
+        }
+        else{
+            printf("%d\n",a/b);
+        } 
     }
     else{
-        printf("error");
+        printf("Error: Invalid operator/n");
     }
     return 0;
 }
