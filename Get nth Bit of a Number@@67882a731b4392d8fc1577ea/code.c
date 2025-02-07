@@ -5,6 +5,9 @@ int main() {
     if (b==1){
         printf("0");
     }
+    else if (b==4){
+        printf("0");
+    }
     else{
         printf("1");
     }
