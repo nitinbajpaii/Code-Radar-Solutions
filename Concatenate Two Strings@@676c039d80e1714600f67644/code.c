@@ -5,6 +5,6 @@ int main() {
     scanf("%s",st1);
     scanf("%s",st2);
     strcat(st1,st2);
-    printf("%s",st1);
+    printf("%s\n",st1);
     return 0;
 }
