@@ -9,10 +9,10 @@ int main(){
     int even = arr[0],odd=arr[0];
     for(int i=1;i<n;i++){
         if (arr[i]%2==0){
-            even +=1;
+            even ++;
         }
         else{
-            odd += 1;
+            odd ++;
         }
     }
     printf("%d %d",even,odd);
