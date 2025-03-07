@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if (arr[i] > arr[i+1] && arr[i] > arr[i-1]){
-        printf("%d",i);
+        printf("%d",arr[i]);
     }
     return 0;
 }
