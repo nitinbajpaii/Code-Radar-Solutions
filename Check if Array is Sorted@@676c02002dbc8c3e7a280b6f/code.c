@@ -11,7 +11,7 @@ int main(){
             printf("Not Sorted");
         }
     }
-    else{
+    else if{
             printf("Sorted");
         }
     return 0;
