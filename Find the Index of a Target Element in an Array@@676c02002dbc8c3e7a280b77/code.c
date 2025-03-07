@@ -11,11 +11,11 @@ int main(){
         if (arr[i] == a){
             printf("%d",i);
         }
-        else{
-            printf("-1");
-        }
 
     }
+    else{
+            printf("-1");
+        }
 
     return 0;
 }
