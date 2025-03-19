@@ -12,7 +12,7 @@ int main() {
         str[i] = str[j];
         str[j] = temp;
     }
-    printf("Reversed string: %s\n", str);
+    printf("%s\n", str);
 
     return 0;
 }
