@@ -30,6 +30,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    scanf("%d",&a);
     int found =0;
     for(int i=0;i<n;i++){
         if(arr[i]==a){
