@@ -32,7 +32,7 @@ int main(){
     }
     int found =0;
     for(int i=0;i<n;i++){
-        if(arr[i]=a){
+        if(arr[i]==a){
             printf("%d",i);
             found=1;
             break;
