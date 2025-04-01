@@ -10,8 +10,6 @@ for(r=1; r<=row; r++){
     }
     printf("\n");
 }
-
-
   return 0;
 
 }
