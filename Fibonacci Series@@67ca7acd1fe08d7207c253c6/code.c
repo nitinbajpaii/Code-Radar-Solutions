@@ -8,4 +8,14 @@ int fibbonacciSeries(int n){
         printf("%d ",next_term);
     }
 }
-int main()
+int main(){
+    int n;
+    scanf("%d",&n);
+    if(n<=0){
+        printf("Invalid input\n");
+        return 0;
+    }
+    fibbonacciSeries(n);
+    return 0;
+
+}
