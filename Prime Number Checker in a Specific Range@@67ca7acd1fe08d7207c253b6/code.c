@@ -20,5 +20,4 @@ int main(){
     scanf("%d %d",&a,&b);
     printPrimeInrange(int a,int b);
     return 0;
-
 }
