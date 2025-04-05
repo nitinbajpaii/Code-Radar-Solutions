@@ -9,7 +9,7 @@ int factorial(int num) {
 void factorialRange(int a, int b) {
     for (int i = a; i <= b; i++) {
         int fact = factorial(i);  
-        printf(%d\n",fact);
+        printf("%d\n",fact);
     }
 }
 
