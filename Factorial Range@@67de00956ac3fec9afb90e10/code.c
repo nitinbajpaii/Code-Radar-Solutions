@@ -1,4 +1,10 @@
 #include <stdio.h>
+int main(){
+    int start,end;
+    scanf("%d %d",&start,&end);
+    factorialRange(start,end);
+    return 0;
+}
 int fact=1;
 int factorialRange(int a,int b){
     for(int i=a;i<=b;i++){
@@ -6,10 +12,4 @@ int factorialRange(int a,int b){
         printf("%d\n",fact);
     }
 
-}
-int main(){
-    int start,end;
-    scanf("%d %d",&start,&end);
-    factorialRange(start,end);
-    return 0;
 }
