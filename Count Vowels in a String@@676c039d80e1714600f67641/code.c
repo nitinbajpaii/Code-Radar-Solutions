@@ -5,7 +5,7 @@ int main(){
     int vowel_count =0;
     scanf("%s",&str);
     for(int i=0;i<strlen(str);i++){
-        if (i=='a' || i=='e' || i=='o' ||i=='i' || i=='u'){
+        if (str[i]=='a' || str[i]=='e' || str[i]=='o' ||str[i]=='i' || str[i]=='u'){
             vowel_count += 1;
         } 
     }
