@@ -19,7 +19,7 @@ int main() {
     if (start > 0 && end >= start) {
         factorialRange(start, end);
     } else {
-        printf("Invalid range. Please enter positive integers with start <= end.\n");
+        printf("Invalid range.");
     }
 
     return 0;
