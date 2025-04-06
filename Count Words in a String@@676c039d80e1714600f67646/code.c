@@ -6,6 +6,7 @@ int main(){
     int wordCount = 0;
     int inWord = 0; 
     fgets(str,sizeof(str),stdin);
+    str[strcspn(str,"\n")] =0;
     for(int i=0;str[i] !='0';i++){
         if (isspace(str[i])){
             inWord=0;
