@@ -2,7 +2,11 @@
 #include <string.h>
 int main() {
     char st[300];
+    int count =0''
     scanf("%s",st);
-    printf("%d",strlen(st));
+    for(int i=0;i<sizeof(st),i++){
+        count++;
+    }
+    printf("%d",count);
     return 0;
 }
