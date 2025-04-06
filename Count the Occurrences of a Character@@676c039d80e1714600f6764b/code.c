@@ -6,7 +6,7 @@ int main(){
     scanf("%s",&st1);
     scanf("%s",&st2);
     for(int i=0;st1[i]!=0;i++){
-        if(st1[i]==st2){
+        if(st1[i]=st2){
             count++;
         }
 
