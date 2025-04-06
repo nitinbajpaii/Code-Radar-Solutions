@@ -5,7 +5,8 @@ int main() {
     int count =0;
     fgets(st,sizeof(st),stdin);
     for(int i=0;st[i]!=0;i++){
-        count++;
+        if(st[i]!='\n'){
+        count++;}
     }
     printf("%d",count);
     return 0;
