@@ -5,7 +5,7 @@ int main(){
     int count;
     scanf("%s",&st1);
     scanf("%c",&st2);
-    for(int i=0;st1[i]!='0';i++){
+    for(int i=0;st1[i]!='\0';i++){
         if(st1[i]==st2){
             count++;
         }
