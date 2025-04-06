@@ -3,7 +3,7 @@
 int main() {
     char st[300];
     int count =0;
-    scanf("%s",st);
+    fgets(st,sizeof(st),stdin);
     for(int i=0;st[i]!=0;i++){
         count++;
     }
