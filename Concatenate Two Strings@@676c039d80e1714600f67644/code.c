@@ -5,6 +5,6 @@ int main() {
     fgets(st1,sizeof(st1),stdin);
     fgets(st2,sizeof(st2),stdin);
     strcat(st1,st2);
-    printf("%s\n",st1);
+    printf("%s",st1);
     return 0;
 }
