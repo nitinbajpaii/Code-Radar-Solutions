@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char st1[100],str2[1];
+    char st1[100],st2[1];
     int count;
     scanf("%s",&st1);
     scanf("%s",&st2);
