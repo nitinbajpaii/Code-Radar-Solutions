@@ -9,7 +9,7 @@ int main(){
     int digit,sum,count;
     for(int i=0;i<n;i++){
         digit = arr[i]/10;
-        sum += digit;
+        sum = sum*10 + digit;
         digit /= 10;
         if(sum==arr[i]){
             count++;
