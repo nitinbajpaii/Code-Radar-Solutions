@@ -8,7 +8,7 @@ int main(){
     }
     int repeat = arr[0];
     for(int i=0;i<n;i++){
-        if (repeat=arr[i]){
+        if (repeat==arr[i]){
             repeat = arr[i];
         }
     }
