@@ -1,19 +1,28 @@
 #include <stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+int is_palindromic(int num) {
+    int reversed = 0, original = num, digit;
+    while (num > 0) {
+        digit = num % 10;         
+        reversed = reversed * 10 + digit; 
+        num /= 10;               
     }
-    int digit,sum,count;
-    for(int i=0;i<n;i++){
-        digit = arr[i]/10;
-        sum = sum*10 + digit;
-        digit /= 10;
-        if(sum==arr[i]){
-            count++;
+    return reversed == original; }
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    int palindromic_count = 0;
+    for (int i = 0; i < n; i++) {
+        if (is_palindromic(arr[i])) {
+            palindromic_count++;
         }
     }
-    printf("%d",count);
+    printf("%d", palindromic_count);
+    return 0;
 }
