@@ -12,5 +12,5 @@ int main(){
             repeat = arr[i];
         }
     }
-    printf("%d",arr[i]);
+    printf("%d",repeat);
 }
