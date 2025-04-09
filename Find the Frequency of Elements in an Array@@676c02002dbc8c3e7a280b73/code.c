@@ -11,7 +11,7 @@ int main(){
         if (arr[i] = arr[i+1]){
             count[i] ++;
         }
-        printf("%d &d",i,count[i]);
+        printf("%d &d\n",i,count[i]);
     }
     return 0;
     
