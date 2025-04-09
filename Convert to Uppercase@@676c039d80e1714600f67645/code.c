@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-char s[20],result[20];
+char s,result;
 scanf("%s",&s);
 result == isupper(s);
 printf("%s",result);
